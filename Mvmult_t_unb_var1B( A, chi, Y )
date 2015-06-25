@@ -6,7 +6,7 @@
 % Programmed by: Trisha P
 %                trisha.palit@gmail.com
 
-function [ Y_out ] = Mvmult_t_unb_var1( A, chi, Y )
+function [ Y_out ] = Mvmult_t_unb_var1B( A, chi, Y )
 
   [ AL, AR ] = FLA_Part_1x2( A, ...
                                0, 'FLA_LEFT' );
